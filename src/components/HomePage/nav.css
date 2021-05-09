@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Dancing+Script&display=swap');
+.mainNav{
+  background: #98ee90;
+}
+
+.jumbo{
+  background-image: url('./images/slider1.jpg');
+  background-size: cover;
+  width: 100%;
+  height: auto;
+ 
+}
+@media only screen and (max-width: 768px) {
+.jumbo{
+  background-image: url('./images/slider1.jpg');
+  background-size: cover;
+  
+   width: 100%;
+  height: auto;
+}
+
+}
+.searchBox{
+  padding-top: 60px;
+}
+.test{
+  border-color: purple;
+}
+.cname{
+  height: 60vmin ;
+  background: url('./images/slider1.jpg');
+   background-size: cover;
+}
+.sun{
+  margin-left: 17rem; 
+}
+.name{
+  font-family: 'Chango',cursive;
+  margin-left:2rem;
+}
+.name.caption{
+  font-family: 'Dancing Script', cursive;
+}
+/* @media only screen and(max-width:  768px){
+.cname{
+  width: 100% ;
+  height: auto;
+  background-position: cover;
+  background: url('https://images.icelolly.com/1920x650/homepage-hero-sun-1616070797.jpg');
+}
+} */
